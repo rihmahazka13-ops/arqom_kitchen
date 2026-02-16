@@ -157,6 +157,7 @@
             </form>
         </div>
 
+        
         @if (session('success'))
             <div class="alert alert-success border-0 shadow-sm mb-4 d-flex align-items-center p-3" style="border-radius: 10px; background: #ecfdf5; border-left: 4px solid #10b981;">
                 <i class="fas fa-check-circle me-3 text-success fs-5"></i> 
@@ -170,7 +171,7 @@
                     <tr>
                         <th class="text-center">KODE</th>
                         <th>KONSUMEN/PROYEK</th>
-                        <th>BARANG PRODUKSI</th>
+                        <th>BARANG PRODUKSI Barang</th>
                         <th class="text-center">QTY</th>
                         <th class="text-end">EST. HPP (UNIT)</th>
                         <th class="text-end" style="background: #f8fafc;">TOTAL EST. HPP</th> 
